@@ -1,0 +1,117 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+.nav {
+  background-color: rgba(51, 51, 51, 1.0);
+  border-top: 5px solid #7093a8;
+  position: absolute;
+  z-index: 99999;
+}
+
+nav .container {
+  width: 85%;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.section-title {
+  color: #933c20;
+  font-weight: 300;
+}
+
+.icon-block img {
+  max-width: 200px;
+  height: auto;
+}
+
+.divider {
+  height: 1px;
+  background-color: #eee;
+  margin: 20px 0 40px;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.brand-logo {
+  position: absolute;
+  z-index: 99999;
+  top: -1px;
+}
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  font-color: white;
+}
+
+.section {
+  width: 85%;
+  margin: auto;
+}
+
+.container-info {
+  padding: 5rem 1.5rem;
+  background-color: rgba(255,255,255,.9);
+  font-color: white;
+}
+
+.slider {
+  min-height: 100vh;
+}
+
+.slider .slides {
+  height: 100vh;
+}
+
+.parallax-container {
+  min-height: 650px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px){
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+footer.page-footer .footer-copyright {
+  background-color: rgba(51, 51, 51, 1.0);
+}
